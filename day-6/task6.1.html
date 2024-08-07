@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+</head>
+<body bgcolor="silver">
+    <h3><u>EMMETS</u></h3>
+    <p>Emmets are the shortcut abbrivations for writing the html and css code</p>
+
+    <!-- creating Emmets in a Table -->
+    <table border="4" cellpadding="10" bgcolor="tan" width="75%" hight="60%" >
+        <caption><h3><u>EMMETS TABLE</u></h3></caption>
+        <thead>
+        <tr>
+            <th>Emmets</th>
+            <th>Description</th>
+        </tr>
+        </thead>
+        <tr>
+            <td>! (or) html:5</td>
+            <td>Open html Structure</td>
+        </tr>
+        <tr>
+            <td>Tagname</td>
+            <td>By using tagname</td>
+        </tr>
+        <tr>
+            <td>></td>
+            <td>Child format<br>
+                Ex: table>tr>td</td>
+        </tr>
+        <tr>
+            <td>+</td>
+            <td>Siblings format<br>
+                Ex: table>caption+tr</td>
+        </tr>
+        <tr>
+            <td>*</td>
+            <td>Multiple format<br>
+                Ex: table>tr>td*5</td>
+        </tr>
+        <tr>
+            <td>{}</td>
+            <td>Content<br>
+                Ex: table>tr>td{content}*3</td>
+        </tr>
+        <tr>
+            <td>^</td>
+            <td>Climb up<br>
+                Ex: html>head>title^body</td>
+        </tr>
+        <tr>
+            <td>[]</td>
+            <td>Attributes<br>
+                Ex: attribute name= "value"</td>
+        </tr>
+        <tr>
+            <td>$</td>
+            <td>Naming and numbering<br>
+                Ex: h$[title=topic$]{Headline $}*3</td>
+        </tr>
+        <tr>
+            <td>()</td>
+            <td>Grouping<br>
+                Ex: table>(tr>td>*2>a)</td>
+        </tr>
+    </table>  
+</body>
+</html>

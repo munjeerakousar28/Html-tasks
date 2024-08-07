@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Topics</title>
+</head>
+<body>
+    <h1><u><center>HTML Topics</center></u></h1>
+    <table border="2" cellpadding="20" >
+        <thead>
+        <tr>
+            <th>S.No</th>
+            <th>HTML Topics</th>
+            <th>Description</th>    
+        </tr>
+       </thead>
+        <tr>
+            <td>1</td>
+            <td>HTML Introduction</td>
+            <td><li>It is a standard Markup Language. 
+                <li>It is used to create webpages.</li> 
+                <li>It acts as structure to the website.</li> 
+                <li>It contains series of elements which is represented by tags --->which tells the browser how to display
+                the content. </li>
+                <p><b>Tags:</b> An HTML tag is a piece of markup language used to indicate the beginning and end of an HTML 
+                element in an HTML document.<br> 
+                Left Tag ...........< Reserved words >............Right Tag<br>
+                <b>Types of Tags:</b> There are two types of Tags 
+                1. Container tags or Pair tags<br> 
+                2. Empty tags or Void tags or Self closing tags.<br>
+                <b>1. Pair Tags:</b> Pair tags are tags which contains both starting tag and Ending tag.<br> 
+                • Opening Tag: < tagname ><br> 
+                • Closing Tag: < /tagname ><br>  
+                <b>2. Empty Tags:</b> Empty tags are tags which doesnt required closing tag.<br> 
+                EX: < tagname >
+                <h4><u>Anatomy of Elements:</u></h4> Elements which consists of opening tag, content and closing tag.<br> 
+                <b>Structure of Element:</b> “< opening tag >Content< closing tag >”<br> 
+                <b>Series of Elements:</b> It is nothing but of both opening tag and closing tag are same.<br> 
+                Ex:< tag1 > Fincorp< /tag1 > 
+                < tag2 > about < /tag2 > 
+                <b>Nested Elements:</b> It is nothing but of one element can be placed in another element is known as 
+                Nested elements. 
+                Ex: < parent tag ><br> 
+                        < child tag ><br> 
+                            < grandchild > < /grandchild ><br> 
+                        < /child tag ><br> 
+                    < /parent tag ><br>
+                <b>HTML:</b> html is a root element for the html document  
+                < html > some content < /html >.
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>HTML Structure</td>
+                <td><b>< !DOCTYPE>:</b> It tells the version of document<br>
+                    <b>< html >< /html >:</b> It is a root element.<br>
+                    <b>< head >< /head >:</b> It is head tag contains title and meta information.<br>
+                    <b>< body >< /body >:</b> It contains content related of the website.<br>
+                </td>
+            </tr>
+               <tr>
+                <td>3</td>
+                <td>Attributes</td>
+                <td><p><b><u>About Attributes</u></b></p>
+                    <p><b>Ancor Tag:</b> ancor tag is used to specify hyperlink for the document.
+                    <li>It uses for external & intenal routing and attributes uses: href, target, title.</li>
+                    <b>Syntax:</b> < a href="link" title="name" target="target name" >content< /a >.<br><br>
+                    <b><u>Behaviour of Elements:</u></b>
+                    <li>Block level Elements: Always starts on newline and takes full space.<br>
+                        Ex: p tag, pre tag, hr tag etc.</li>
+                    <li>Inline Elements: It doesnt takes space and starts in same line.<br>
+                        Ex: ancor tag.</li></a></p>
+                       _self: url open in same tab.<br>
+                       _blank: url open in another tab.<br>
+                       _parent: url opened in parent frame.<br>
+                       _top: url displayed in the full body of window.
+                    </td>
+               </tr>
+               <tr>
+                <td>4</td>
+                <td>Comments and Table Attributes</td>
+                <td><b><u>Comments:</u></b> It used for documentation of code, not visible in browser and prevents the execution of the code.<br>
+                    <p><b><u>Table:</u></b> It is used to add the Information in a tabular format.<br>
+                    <li>Tables have rows and coloms.</li>
+                    <li>tables are defined with table tag.</li>
+                    <li>Table rows are defined with "tr" tag.</li>
+                    <li>Table cells are defined with "td" tag.</li>
+                    <li>Heading tags are defines with "th" tag.</li>
+                    Ex:< table ><br>
+                        < tr ><br>
+                            < td >employe name< /td ><br>
+                        < /tr ><br>
+                      < /table ><br><br>
+                    <b><u>Attributes of Table:</u></b><br>
+                    <b>1. border:</b> It is used to specify border for a table.<br>
+                    <b>2. caption:</b> It is used to provide title or heading.<br>
+                          Ex: < caption >< h2 >Student Table< /h2 >< /caption ><br>
+                    <b>3. cellpadding:</b> It is used to create a space around the content.<br>
+                          Ex: < table border="2" cellpadding="20" > Content < /table ><br>
+                    <b>4. cellspacing>:</b> It is used to create a space between the cells.<br>
+                          Ex: < table border="2" cellpadding="20" cellspacing="10" > Content < /table ><br>
+                    <b>5. Grouping:</b> Grouping the cells can be done with thead, tbody, tfoot and also used for styling.<br>
+                          Ex: < table ><br>
+                               < thead >
+                                < tr ><br>
+                                  < th >employe name< /th ><br>
+                                < /tr ><br>
+                               < /thead ><br>
+                              < /table ><br>
+                    <b>6. bgcolor:</b> It is used to create a styling background color.<br>
+                        Ex: < table  bgcolor="Green" border="2" cellpadding="20" cellspacing="10" > Content < /table ><br>
+                    <b>7. Sizing:</b> It contains width and hight of the table.<br>
+                        Ex: < table border="2" cellpadding="20" cellspacing="10" width="50" or "50%" hight="50" or "50%" > Content < /table ><br>
+                    </p></td>
+               </tr>
+               <tr>
+                <td>5</td>
+                <td>VS Code</td>
+                <td><p><b><u>Visual Studio</u></b> is an integrated development environment (IDE) developed by Microsoft.<br>
+                    1.It is used to develop computer programs including websites, web apps, web services and mobile apps.<br>
+                    2.It is open source code editor.<br>
+                    3.It provides tools and resources with GUI.</p>
+                    <h3><u>Features of VS Code</u></h3>
+                    <p>1. It is a open source <br>
+                       2. It is a platform support - Mac os, Windows and Linux.<br>
+                       3. Development capabilities.<br>
+                       4. Integrated termina.l<br>
+                       5. Extensions.<br>
+                       6. Debugging.</p>
+                    <p><h3><u>Basic Commands</u></h3>
+                       <li>Ctrl+s: Saving the File</li>
+                       <li>Ctrl+c: Copying the text</li>
+                       <li>Ctrl+x: Paste the text</li>
+                       <li>Ctrl+v: Cut the File</li>
+                       <li>Ctrl+a: Select all</li>
+                       <li>Ctrl+z: Undo</li>
+                       <li>Ctrl+y: Redo</li>
+                       <li>Ctrl+shift+alt+down: Using Multiple cursors</li>
+                       <li>Shift+up, Shift+down, Shift+right Shift+left -: moving arrow commands</li>
+                       <li>Shift+alt+down: Copy the same line</li>
+                       <li>alt+down: moves one line down</li>
+                       <li>alt+up: moves one line up</li>
+                       <li>Ctrl+o: Open the File</li>
+                       <li>Ctrl+k+o: Open the Folder</li>
+                       <li>Ctrl+Shift+n: For new vs code window</li>
+                       <li>Ctrl+Shift+p: Command pallate</li>
+                       <li>Ctrl+Shift+w: Closing the editor</li>
+                       <li>Ctrl+/: Comments</li>
+                    </p>
+                </td>
+               </tr>
+               <tr>
+                <td>6</td>
+                <td>Emmets</td>
+                <td><p><b><u>Emmets:</u></b> Emmets are the shortcut abbrivations for writing the html and css code.
+                       <li>! or html5----> Html Structure</li>
+                       <li>By using tagname</li>
+                       <li> >----> Child form</li>
+                       <li>+---->Sibling</li>
+                       <li>*---->Multiple Elements</li>
+                       <li>{}---->Content</li>
+                       <li>^---->Add element to parent</li>
+                       <li>[]---->Attributes</li>
+                       <li>$---->Naming and numbering</li>
+                       <li>()---->Grouping</li>
+                    </p>
+                </td>
+               </tr>
+               <tr>
+                <td>7</td>
+                <td>Formatting Tags</td>
+                <td><b><u>Formatting Tags:</u></b> It is used to define the content or text.<br>
+                    <b><u>Types of Formatting Tags:</b></u>
+                    <p><li><b>b tag:</b> Bold the text.</li>
+                       <li><b>strong tag:</b> Bold and give importance to the text.</li>
+                       <li><b>i tag:</b> italic font.</li>
+                       <li>em tag: italic or emphasized and also give importance of a text.</li>
+                       <li><b>u tag:</b> underline the text.</li>
+                       <li><b>sub tag:</b> subscripted the text.</li>
+                       <li><b>sup tag:</b> superscripted the text.</li>
+                       <li><b>kbd tag:</b> keyboard text.</li>
+                       <li><b>code tag:</b> specify the code.</li>
+                       <li><b>blockquote tag:</b> content is quoted from another website.</li>
+                       <li><b>abbr tag:</b> used for Abbrivations.</li>
+                       <li><b>q tag:</b> Insert quotations</li>
+                       <li><b>address tag:</b> used for address to the person or company</li>
+                       <li><b>cite tag:</b> title the text.</li>
+                       <li><b>del tag:</b> Strike the text.</li>
+                       <li><b>mark tag:</b> Highlight the text.</li>
+                       <li><b>div tag:</b> Grouping the text.</li>
+                       <li><b>span tag:</b> Grouping and styling the part of the text.</li></p>
+                    </td>
+               </tr>
+               <tr>
+                <td>8</td>
+                <td>Url Structure</td>
+                <td>https://www.example.com/path<br>
+                    1.Protocol<br> 2.Subdomain<br> 3.Domain<br> 4.TLD<br> 5.Path</td>
+               </tr>
+               <tr>
+                <td>9</td>
+                <td>Paths</td>
+                <td><b><u>Path:</u></b> Specifies location of the webserver and It follows domain name.<br>
+                    There are 2 types of path:<br>
+                    1.Asolute path<br> 2.Relative path<br>
+                    <b>1. Absolute path:</b> Full url which includes to includes protocol and external.<br>
+                    <b>Advantages:</b> <li>It is easy to deploy</li>
+                                       <li>Easy to link</li>
+                    <b>Disadvantages:</b> <li>Dependency on url</li>
+                                          <li>Copywrites</li>
+                                          <li>Long urls</li>
+                    <b>2. Relative path:</b> Path reference to the current document.<br>
+                    <b>Types of Relative path:</b> 
+                     <li><b>Same Directory:</b> This refers to an image located in a same directory. </li>
+                     <li><b>Sub Directory:</b> < a href="subdirectory/sub.html" > Subfile < /a ></li>
+                     <li><b>Subchild:</b> </li>< a href="subdirectory/sub2/sub3/subchild.html" >Subchild</a><br>
+                    <b>Advantages:</b> <li>Flexibility</li>
+                                       <li>Short urls move easier and change easily.</li>
+                    <b>Disadvantages:</b> <li>When the content page changed position, the link is easy to fail. </li>
+                                          <li>Easy to be collected by the People's Congress area plagiarism.</li>                   
+                    </td>
+               </tr>
+               <tr>
+                <td>10</td>
+                <td>Image Tag</td>
+                <td><b><u>Image Tag:</u></b> It is defined with img tag and it is used to embed the image to the document.<br><br>
+                    <b><u>Attributes:</u></b><br>
+                     1. Src<br> 2. width: Specifying the width of the image in pixels or percentage.<br>
+                    3. hight: Specifying the hight of the image pixels or percentages.<br>
+                    4. title: It shows details about the text.<br>
+                    5. alt:   -->It is used to show alternative text when the image is broken.<br>
+                              -->It is used to define the image for the visually impaired people.<br>
+                    <b>Ex:</b> < img src="image.png" width="200" hight="200" title="image1" >
+                </td> 
+               </tr>
+               <tr>
+                <td>11</td>
+                <td>Ancor Tag</td>
+                <td><b><u>Ancor Tag:</u></b> It is used to create a hyper link and also internal and external routing.<br>
+                     <b>EX:-</b> <br>
+                     1. < a href="https://cn.wikipedia.ord/wiki/html" >html< /a ><br>
+                     2. < a href="image.png" > image doc< /a ><br>
+                     <!-- How to add link to the image for absolute path -->
+                      <b>EX:</b> < a href="https://en.wikipedia.org/wiki/html" ><br>
+                          < img src="image absolute link" width="50%  hight="50%"><br>
+                          < /a ><br>
+                      <!-- How to add link to the image for relative path -->
+                    <b>EX:</b> < a href="image2.png" ><br>
+                          < img src="image2.png" width="50%  hight="50%"><br>
+                          < /a ><br>
+                      <!-- How to download image  -->
+                    <b>EX:</b> < a href="image1.png" download="hello"><br>
+                          < img src="image1.png" width="50%  hight="50%"><br>
+                          < /a ><br>
+                      <!-- How to add mobile no using ancor tag  -->
+                    <b>EX:</b> < a href="tel:1234567890"> call us< /a ><br>
+                      <!--How to add mobile no with using ancor tag  and img tag  -->
+                    <b>EX:</b> < h1 ><br>
+                          < a href="tel:1234567890">< /a ><br>
+                          < img src="image3.png" width="50%  hight="50%"><br>
+                          < /a ><br>
+                          < /h1 ><br>
+                       <!--How to add email with using ancor tag  and img tag  -->   
+                    <b>EX:</b> < h1 ><br>
+                          < a href="mailto:munjeerak@gmail.com">< /a ><br>
+                          < img src="image2.png" width="50%  hight="50%"><br>
+                          < /a ><br>
+                          < /h1 ><br>
+                       <!--How to add whatsapp  with using ancor tag  and img tag  -->
+                    <b>EX:</b> < h1 ><br>
+                          < a href="https://wa.me/1234567890">< /a ><br>
+                          < img src="image4.png" width="50%  hight="50%"><br>
+                          < /a ><br>
+                          < /h1 ><br>            
+                </td>
+               </tr>
+    </table>
+    
+</body>
+</html>
